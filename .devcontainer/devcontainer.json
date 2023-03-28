@@ -11,12 +11,13 @@
 			"extensions": [
 				"dbaeumer.vscode-eslint",
 				"hbenl.vscode-mocha-test-adapter",
-                "esbenp.prettier-vscode"
+                "esbenp.prettier-vscode",
+				"rodrigovallades.es7-react-js-snippets"
 			]
 		}
 	},
 
-	"forwardPorts": [3000],
+	"forwardPorts": [5173],
 	"postCreateCommand": "npm i",
 	"remoteUser": "node",
 	"updateRemoteUserUID": true

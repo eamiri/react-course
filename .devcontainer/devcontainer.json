@@ -1,23 +1,23 @@
 // For format details, see https://aka.ms/devcontainer.json. For config options, see the README at:
 // https://github.com/microsoft/vscode-dev-containers/tree/v0.231.6/containers/javascript-node
 {
-	"name": "EVSA UI",
+	"name": "React Practice",
 	"dockerComposeFile": "docker-compose.yml",
 	"service": "app",
 	"workspaceFolder": "/workspace",
-
 	"customizations": {
 		"vscode": {
 			"extensions": [
 				"dbaeumer.vscode-eslint",
 				"hbenl.vscode-mocha-test-adapter",
-                "esbenp.prettier-vscode",
+				"esbenp.prettier-vscode",
 				"rodrigovallades.es7-react-js-snippets"
 			]
 		}
 	},
-
-	"forwardPorts": [5173],
+	"forwardPorts": [
+		5173
+	],
 	"postCreateCommand": "npm i",
 	"remoteUser": "node",
 	"updateRemoteUserUID": true
